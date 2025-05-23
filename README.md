@@ -38,3 +38,10 @@ Every time someone types, the server broadcasts that message to all subscribers 
 ![alt text](img/image2.png)
 
 Because both the client and server are still using port 8080, the communication works just as it did before—nothing breaks or changes in functionality.
+
+
+# Small changes, add IP and Port
+
+![alt text](img/image3.png)
+
+When you're running several clients on the same machine, it’s useful to quickly identify which terminal output belongs to which client. Adding a fixed label or prefix to each printed line helps distinguish them easily at a glance.
