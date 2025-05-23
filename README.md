@@ -31,3 +31,10 @@ All connected clients will print:
 `From server: bismillah`
 
 Every time someone types, the server broadcasts that message to all subscribers via the broadcast channel, and each client’s select‐loop picks it up and prints it out.
+
+
+# Modifying port
+
+![alt text](img/image2.png)
+
+Because both the client and server are still using port 8080, the communication works just as it did before—nothing breaks or changes in functionality.
